@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Star Wars Planets",
+    "description": "Info on all the planets on Star Wars.",
+    "slug": "star-wars-planets",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.brickwallstudios.starwarsplanets",
+      "permissions": [],
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brickwallstudios.starwarsplanets"
+    }
+  }
+}
